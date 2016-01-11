@@ -1,6 +1,7 @@
 // vendor libraries
 var express = require('express');
 var app = express();
+var paypal = require('paypal-rest-sdk');
 var morgan = require('morgan');
 var bodyParser = require('body-parser');
 var cookieParser = require('cookie-parser');
@@ -22,6 +23,8 @@ app.use(session(
       resave: true,
       saveUninitialized: true
    }));
+//paypal config
+paypal.configure(require('/home/indycorps/Documents/IntellJProjects/MetroCarpet/config/paypal.js').api);
 
 // routes ======================================================================
 require('./routes.js')(app);

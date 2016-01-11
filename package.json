@@ -15,6 +15,7 @@
     "bookshelf": "0.5",
     "node-geocoder": "*",
     "morgan": "*",
-    "connect-flash": "*"
+    "connect-flash": "*",
+    "paypal-rest-sdk": "^1.6.0"
   }
 }

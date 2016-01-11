@@ -7,8 +7,8 @@ var notFound404 = function(req, res, next)
       {title: '404 Not Found'});
 };
 
-var home = function (req, res, next) {
-    res.render('home',
+var index = function (req, res, next) {
+    res.render('index',
         {title: 'Home Page'});
 };
 
@@ -18,4 +18,4 @@ var home = function (req, res, next) {
 // 404 not found
 module.exports.notFound404 = notFound404;
 
-module.exports.home = home;
+module.exports.index = index;
