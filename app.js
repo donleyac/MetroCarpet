@@ -14,6 +14,8 @@ app.set('port', process.env.PORT || 3000); //launch application at this port
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs'); // set up ejs for templating
 
+
+app.use("/public",express.static(__dirname + "/public"));
 app.use(morgan('dev')); //log every request to the console
 app.use(cookieParser()); //read cookies (needed for auth)
 app.use(bodyParser()); //get information from html forms
@@ -24,7 +26,7 @@ app.use(session(
       saveUninitialized: true
    }));
 //paypal config
-paypal.configure(require('/home/indycorps/Documents/IntellJProjects/MetroCarpet/config/paypal.js').api);
+paypal.configure(require('./config/paypal.js').api);
 
 // routes ======================================================================
 require('./routes.js')(app);
