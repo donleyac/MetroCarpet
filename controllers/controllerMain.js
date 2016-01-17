@@ -8,7 +8,7 @@ var notFound404 = function(req, res, next)
 };
 
 var index = function (req, res, next) {
-    res.render('map',
+    res.render('index',
         {title: 'Home Page'});
 };
 
