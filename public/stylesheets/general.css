@@ -30,3 +30,17 @@ body{
 .navbar-collapse{
     padding-left:0;
 }
+
+.footer-header{
+    background: #0D4F8B;
+    width: 100%;
+    color: white;
+    border-bottom-width : 50px;
+}
+
+.footer-header p {
+    width: 50%;
+    float: left;
+}
+
+
