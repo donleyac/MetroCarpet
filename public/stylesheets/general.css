@@ -31,6 +31,28 @@ body{
     padding-left:0;
 }
 
+.upper-nav {
+    float:right;
+    transform: translate(0,70%);
+}
+.upper-nav p{
+    display:inline;
+}
+.lower-nav img {
+    width: 10%;
+    float:left;
+}
+.pages {
+    float:right;
+    transform: translate(0,70%);
+}
+.pages p {
+    display:inline;
+}
+.social {
+    float:right;
+}
+
 .footer-header{
     background: #0D4F8B;
     width: 100%;
@@ -42,5 +64,7 @@ body{
     width: 50%;
     float: left;
 }
+
+
 
 
