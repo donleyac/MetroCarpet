@@ -16,19 +16,6 @@ body{
     float: left;
 }
 
-.footer-header{
-    background: #0D4F8B;
-    width: 100%;
-    color: white;
-    border-bottom-width : 50px;
-}
-
-.footer-header p {
-    width: 50%;
-    float: left;
-}
-
-
 .btn-primary.raised {
     box-shadow: 0 3px 0 0 #1B54A5;
 }
@@ -43,4 +30,9 @@ body{
 .main-image .btn-primary {
     background-color: #3367B7;
     border-color: #2E49A4;
+}
+
+#myCarousel {
+	margin-top: 5%;
+	margin-bottom: 5%;
 }
