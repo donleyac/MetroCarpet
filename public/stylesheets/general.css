@@ -29,3 +29,18 @@ body{
 }
 
 
+.btn-primary.raised {
+    box-shadow: 0 3px 0 0 #1B54A5;
+}
+
+.btn-primary.raised:active, .btn-primary.raised.active {
+    background: #1a4fff;
+    box-shadow: none;
+    margin-bottom: -3px;
+    margin-top: 3px;
+}
+
+.main-image .btn-primary {
+    background-color: #3367B7;
+    border-color: #2E49A4;
+}
