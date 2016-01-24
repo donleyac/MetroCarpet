@@ -71,27 +71,3 @@
     min-width: 271px;
     min-height: 50px;
 }
-
-
-.main-image{
-    position:relative;
-    width: 100%;
-    vertical-align: middle;
-}
-
-.main-image h2 {
-    position:absolute;
-    top: 20%;
-    width: 100%;
-    text-align: center;
-    color: #003dff;
-}
-
-.main-image button {
-    position:absolute;
-    top: 70%;
-    left:45%;
-}
-span#image-text1 {
-    font-size: 3em;
-}
