@@ -31,3 +31,26 @@
 	margin-bottom: 5%;
 }
 
+#myCarousel {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.white {
+    margin-top: 5%;
+    text-align: center;
+}
+
+.white h1{
+    margin-bottom: 3%;
+    font-size: 4vmin;
+}
+
+.white p{
+    margin-top: 5%;
+    font-size: 2vmin;
+}
+
+li {
+   list-style:none;
+}

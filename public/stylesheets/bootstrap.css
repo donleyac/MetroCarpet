@@ -1266,6 +1266,8 @@ h6 .small,
 h1,
 .h1 {
   font-size: 36px;
+  font-weight: bold;
+  color: #036ee2;
 }
 h2,
 .h2 {
