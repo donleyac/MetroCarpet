@@ -1,11 +1,7 @@
-#top-body{
-    margin-top: 40px;
-}
 
 .slide-btn {
     padding: 0.6em 2em;
     text-decoration: none;
-    font-family: 'Oswald', sans-serif, bold;
     border: 2px solid#0B509B;
     margin-top: 1em;
     display: inline-block;
@@ -16,20 +12,13 @@
     border-radius: 5px;
 }
 #top-body .carousel-caption {
+    margin-top:5%;
     display: inline-block;
     width: 100%;
     text-align: center;
 }
 #top-body h3 {
-<<<<<<< 2d7f87507b60d6e08c0f23a4b138f412b0f2c3c3
-    color: #0B509B;
-    font-size: 7vmin;
-    text-shadow: 2px 2px #1E292B;
-}
-#top-body p {
-    font-size: 2.5vmin;
-    color: #002955;
-=======
+    font-family: 'Oswald', sans-serif, bold;
     background: #036ee2; /* For browsers that do not support gradients */
     background: -webkit-linear-gradient(#036ee2, #003b7b); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(#036ee2, #003b7b); /* For Opera 11.1 to 12.0 */
@@ -43,8 +32,7 @@
 #top-body p {
     font-size: 3vmin;
     color: #003b7b;
->>>>>>> b1727ad0a9fc40b7fe8482faed65aa879d060519
     line-height: 1.6em;
     margin: 0 auto;
-}
 
+}
