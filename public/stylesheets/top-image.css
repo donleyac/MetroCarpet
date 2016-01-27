@@ -5,7 +5,7 @@
 .slide-btn {
     padding: 0.6em 2em;
     text-decoration: none;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Oswald', sans-serif, bold;
     border: 2px solid#0B509B;
     margin-top: 1em;
     display: inline-block;
@@ -18,10 +18,10 @@
 #top-body .carousel-caption {
     display: inline-block;
     width: 100%;
-
     text-align: center;
 }
 #top-body h3 {
+<<<<<<< 2d7f87507b60d6e08c0f23a4b138f412b0f2c3c3
     color: #0B509B;
     font-size: 7vmin;
     text-shadow: 2px 2px #1E292B;
@@ -29,6 +29,21 @@
 #top-body p {
     font-size: 2.5vmin;
     color: #002955;
+=======
+    background: #036ee2; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#036ee2, #003b7b); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#036ee2, #003b7b); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#036ee2, #003b7b); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#036ee2, #003b7b); /* Standard syntax */
+     -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    font-size: 10vmin;
+    font-weight: 580;
+}
+#top-body p {
+    font-size: 3vmin;
+    color: #003b7b;
+>>>>>>> b1727ad0a9fc40b7fe8482faed65aa879d060519
     line-height: 1.6em;
     margin: 0 auto;
 }

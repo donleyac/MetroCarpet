@@ -1,5 +1,9 @@
 .footer-header{
-    background: #0D4F8B;
+    background: #036ee2; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#036ee2, #003b7b); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#036ee2, #003b7b); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#036ee2, #003b7b); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#036ee2, #003b7b); /* Standard syntax */
     color: white;
     padding-left: 2%;
     padding-top: 3%;
@@ -74,7 +78,7 @@ li {
     font-size: 4.3vmin;
 }
 #why-us p {
-    font-size: 2.7vmin;
+    font-size: 2vmin;
 }
 
 .companies img {
