@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="/public/stylesheets/navbar.css">
     <link rel="stylesheet" href="/public/stylesheets/top-image.css">
     <link rel="stylesheet" href="/public/stylesheets/bootstrap.css">
+    <link rel="stylesheet" href="/public/stylesheets/contact.css">
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
     <div id="fb-root"></div>
     <!-- Stuff for yelp -->
@@ -32,6 +33,26 @@
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="/public/javascript/jquery.min.js"></script>
     <script src="/public/javascript/bootstrap.min.js"></script>
+    <script src="/public/javascript/jquery.tabSlideOut.v1.3.js"></script>
+
+    <script>
+    $(function(){
+        $('.slide-out-div').tabSlideOut({
+            tabHandle: '.handle',                     //class of the element that will become your tab
+            pathToTabImage: '/public/images/contact_tab.gif', //path to the image for the tab //Optionally can be set using css
+            imageHeight: '40px',                     //height of tab image           //Optionally can be set using css
+            imageWidth: '122px',                       //width of tab image            //Optionally can be set using css
+            tabLocation: 'bottom',                      //side of screen where tab lives, top, right, bottom, or left
+            speed: 300,                               //speed of animation
+            action: 'click',                          //options: 'click' or 'hover', action to trigger animation
+            topPos: '200px',                          //position from the top/ use if tabLocation is left or right
+            leftPos: '1350px',                          //position from left/ use if tabLocation is bottom or top
+            fixedPosition: true                      //options: true makes it stick(fixed position) on scroll
+        });
+
+    });
+
+    </script>
 </head>
 
 <body>
@@ -254,6 +275,31 @@
             </div>
         </div>
          </div>
+
+    <div class="slide-out-div">
+        <a class="handle" href="http://link-for-non-js-users.html">Content</a>
+        <div class="contact-container">  
+          <form id="contact" action="" method="post">
+            <h3>Quick Contact</h3>
+            <h4>Contact us today, and get reply with in 24 hours!</h4>
+            <fieldset>
+              <input placeholder="Your name" type="text" tabindex="1" required autofocus>
+            </fieldset>
+            <fieldset>
+              <input placeholder="Your Email Address" type="email" tabindex="2" required>
+            </fieldset>
+            <fieldset>
+              <input placeholder="Your Phone Number" type="tel" tabindex="3" required>
+            </fieldset>
+            <fieldset>
+              <textarea placeholder="Type your Message Here...." tabindex="5" required></textarea>
+            </fieldset>
+            <fieldset>
+              <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+            </fieldset>
+          </form>
+        </div>
+    </div>
     <div class ="footer-header">
     <div class ="row">
            <div class="col-md-4 col-md-offset-1">
