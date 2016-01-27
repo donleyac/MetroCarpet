@@ -76,17 +76,12 @@ li {
 }
 
 .companies img {
-    width: 170px;
     height: 140px;
     margin: auto;
 }
 .companies li {
     height: 250px;
-    width: 180px;
     margin: auto;
-}
-.companies li:hover {
-    background: #ACBFD0
 }
 
 
